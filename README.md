@@ -28,3 +28,5 @@ Node.js: A JavaScript runtime that powers the backend of the application.
 download the zip file from github then extract all the files and open the folder on visual studio code,go to terminal and install the necessary packages 
 Go to backend directory and write "npm install express dotenv mongoose" ,proceed to frontend directory and run "npm install" on the terminal,after this go to backend directory and write node index.js ,ensure that the database is connected (would leave the url here) go ahead and paste it in the env file ,furthermore to start the frontend of the project write npm run start in the terminal inside the frontend directory.
 Thank you!
+
+mongodb url:mongodb+srv://guptagarima2301:gupta2301%40@cluster0.kahf4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"

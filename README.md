@@ -1,29 +1,20 @@
-# EMPLOYEE-PORTAL 
+# JOB-APPLICATION
 
 ## Overview
 
-The Employee Portal is a full-stack application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to manage employee data efficiently by adding new employees, viewing a list of all employees, and making their details visible on the homepage.
+The job application is a full-stack application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to manage job data efficiently by manging the statuses of their jobs as well as allows admins to create a new job.
 
-This portal is designed to simplify employee management and streamline the process of maintaining employee records. It's a simple, yet powerful, web-based solution for organizations to manage their workforce data.
+This portal is designed to simplify job management and streamline the process of maintaining job records. It's a simple, yet powerful, web-based solution for organizations to manage their data.
 
 ## Features
 
-Add New Employees: Easily add new employees to the portal by providing their details.
-View Employee List: The homepage displays all the added employees with their relevant information.
+Add New jobs and fetch existing one from database: Easily add new employees to the portal by providing their details.
+Edit job List: The homepage displays all the added employees with their relevant information.
 Responsive Design: The portal is fully responsive, providing a seamless experience on both desktop and mobile devices.
 
-## Screenshots
-
-Home Page
-
-![Screenshot 2024-08-14 191305](https://github.com/user-attachments/assets/dd7b0943-1f34-47fc-9be3-8ec5515ef754)
-
-Displays all the employees that have been added to the system.
-
-![Screenshot 2024-08-14 191326](https://github.com/user-attachments/assets/ab086440-5ff1-4405-b9a3-1642222fc62d)
+## Demo video
 
 
-Form for adding new employees to the portal
 
 ## Tech Stack
 
@@ -32,6 +23,8 @@ Express.js: A fast and lightweight web framework for Node.js, used to build the 
 React.js: A popular front-end library for building user interfaces.
 Node.js: A JavaScript runtime that powers the backend of the application.
 
-## Contributing
+## steps to implement on local machine
 
-Contributions are welcome! Please submit a pull request or open an issue if you have any suggestions or find any bugs.
+download the zip file from github then extract all the files and open the folder on visual studio code,go to terminal and install the necessary packages 
+Go to backend directory and write "npm install express dotenv mongoose" ,proceed to frontend directory and run "npm install" on the terminal,after this go to backend directory and write node index.js ,ensure that the database is connected (would leave the url here) go ahead and paste it in the env file ,furthermore to start the frontend of the project write npm run start in the terminal inside the frontend directory.
+Thank you!

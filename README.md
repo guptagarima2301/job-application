@@ -9,9 +9,13 @@ This portal is designed to simplify job management and streamline the process of
 ## Features
 
 Add New jobs and fetch existing one from database: Easily add new employees to the portal by providing their details.
+
 Edit job List: The homepage displays all the added employees with their relevant information.
+
 Responsive Design: The portal is fully responsive, providing a seamless experience on both desktop and mobile devices.
+
 Filtering system:filter jobs on the basis of their status.
+
 Admin dashboard and user dashboard
 
 ## Demo video
